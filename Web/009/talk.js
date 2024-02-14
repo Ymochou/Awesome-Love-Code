@@ -1,6 +1,6 @@
 $(function() {
     $('#yes').click(function(event) {
-        modal('我就知道小姐姐您一定会愿意的。(^_^)', function() {
+        modal('我就知道小羊一定喜欢的。(^_^)', function() {
             $('.page_one').addClass('hide');
             $('.page_two').removeClass('hide');
             // typeWrite();
@@ -9,48 +9,48 @@ $(function() {
         });
     });
     $('#no').click(function(event) {
-        modal('明人不说暗话！', A);
+        modal('不可以撒谎噢', A);
     });
 });
 
 function A() {
-    modal('我喜欢你！', B);
+    modal('虽然嘴上说着不喜欢', B);
 }
 
 function B() {
-    modal('我知道你在等我这一句话', C);
+    modal('其实一定很喜欢我吧', C);
 }
 
 function C() {
-    modal('请您不要拒绝我', D);
+    modal('是吧', D);
 }
 
 function D() {
-    modal('拒绝我，不存在的', E);
+    modal('就像我喜欢小羊一样', E);
 }
 
 function E() {
-    modal('这辈子都不可能让你离开我', F);
+    modal('今天也是非常喜欢', F);
 }
 
 function F() {
-    modal('跟我走吧', G);
+    modal('不不不', G);
 }
 
 function G() {
-    modal('房产证上写你名', H);
+    modal('应该说是超级超级超级喜欢', H);
 }
 
 function H() {
-    modal('我会做饭', I);
+    modal('对吧对吧', I);
 }
 
 function I() {
-    modal('爱你。么么哒！', J)
+    modal('爱你呀。么么哒！', J)
 }
 
 function J() {
-    modal('行，我们去民政局登记吧', function() {
+    modal('所以，再选择一次吧', function() {
         fireworks();
     });
 }
